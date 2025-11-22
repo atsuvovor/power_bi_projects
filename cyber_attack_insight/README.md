@@ -3,7 +3,7 @@
   <i>BI Executive Dashboard for Threat Detection, Severity Scoring & Incident Response Intelligence</i>
 </p>
 <p align="center">
-  <img src="UDI_AIIF_logo3.png" alt="Centered Image">
+  <img src="image/vulnerability_scorecard_3D.png" alt="Centered Image">
 </p>
 
 
