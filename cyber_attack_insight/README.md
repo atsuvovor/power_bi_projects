@@ -25,7 +25,7 @@ The **Cyber Attack Insight Dashboard** provides a unified, interactive view of o
 
 This dashboard serves as a **proactive decision-support system** that highlights the most impactful cyber threats and operational risks in real-time.
 
-## 🖼️ **Dashboard Preview (Screenshots)**
+## **Dashboard Preview**
 
 
 
