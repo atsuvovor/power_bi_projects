@@ -29,8 +29,10 @@ This dashboard serves as a **proactive decision-support system** that highlights
 
 
 
-![Vulnerability Scorecard Overview](images/screenshot_threat_overview.png)
-![Severity Distribution](images/Screenshot_vulnerability_profile.png)
+![Threat Overview](images/screenshot_threat_overview.png)
+![Vulnerability Profile](images/Screenshot_vulnerability_profile.png)
+![Attack Overwiew](images/screenshot_attack_overwiew.png)
+![Severity Distribution](images/screenshot_attack_details.png)
 ![Asset Exposure](images/screenshot_threat_impact.png)
 ![Remediation Performance](images/Screenshot_vulnerability_and_defense_actions.png)
 
