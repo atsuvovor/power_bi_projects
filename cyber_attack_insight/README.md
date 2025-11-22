@@ -664,6 +664,34 @@ Use slicers such as:
 
 ---
 
+---
+
+## 🧱 Architecture & Tools
+
+| Layer         | Technology                           |
+| ------------- | ------------------------------------ |
+| Data Modeling | Power Query, DAX                     |
+| Visualization | Power BI Desktop                     |
+| Scoring Logic | Python-based model                   |
+| Deployment    | GitHub Pages (HTML export)           |
+| Documentation | GitHub README + Portfolio Case Study |
+
+---
+
+## 📈 What This Demonstrates
+
+This project highlights capabilities in:
+
+* Cybersecurity analytics
+* Executive dashboard design
+* Data modeling and normalization
+* Severity and scoring logic engineering
+* KPI frameworks
+* UI/UX for risk visibility
+* GitHub hosting for BI assets
+
+---
+
 # 🔒 **Security Disclaimer**
 
 This dashboard represents **synthetic** or **anonymized** data for demonstration purposes.
