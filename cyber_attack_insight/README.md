@@ -3,7 +3,7 @@
   <i>BI Executive Dashboard for Threat Detection, Severity Scoring & Incident Response Intelligence</i>
 </p>
 <p align="center">
-  <img src="images/vulnerability_scorecard_3D.png" alt="Vulnerability Scorecard" width="800" height="350">
+  <img src="images/vulnerability_scorecard_3D.png" alt="Vulnerability Scorecard" width="800" height="400">
 </p
 
 
@@ -29,10 +29,10 @@ This dashboard serves as a **proactive decision-support system** that highlights
 
 
 ```
-![Vulnerability Scorecard Overview](images/vulnerability_scorecard_overview.png)
-![Severity Distribution](images/vulnerability_severity_distribution.png)
-![Asset Exposure](images/asset_exposure.png)
-![Remediation Performance](images/remediation_performance.png)
+![Vulnerability Scorecard Overview](images/screenshot_threat_overview.png)
+![Severity Distribution](images/Screenshot_vulnerability_profile.png)
+![Asset Exposure](images/screenshot_threat_impact.png)
+![Remediation Performance](images/Screenshot_vulnerability_and_defense_actions.png)
 ```
 
 ---
