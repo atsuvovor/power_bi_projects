@@ -295,54 +295,13 @@ If unsure, MIT is the easiest.
 If this project was helpful, please give the repository a ⭐ on GitHub!
 
 ---
-Excellent — below are **all supporting documents**, professionally written and ready for copy/paste into GitHub, LinkedIn, your portfolio, or presentations.
 
-You now receive:
-
-1. **GitHub Project Description (Short “About” Section)**
-2. **LinkedIn Announcement Post**
-3. **Portfolio Case Study Page** (long-form storytelling for your website or GitHub Pages)
-4. **Optional Tags & SEO Keywords** (for visibility)
-
----
 
 # ✅ **1. GitHub Project Description (Short About Section)**
 
 > **Cyber Attack Insight Dashboard & Vulnerability Scorecard**
 > A Power BI executive dashboard that analyzes cyber threats, vulnerability exposure, and system anomalies using a weighted scoring model and data-driven severity color mapping. The dashboard provides real-time insights into risk levels, attack patterns, operational impact, and key threat indicators (KTIs).
 > Live Dashboard: [https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html](https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html)
-
----
-
-# ✅ **2. LinkedIn Announcement Post**
-
-### 🔐 New Cybersecurity Project: Cyber Attack Insight Dashboard (Power BI)
-
-Excited to share my **Cyber Attack Insight Dashboard & Vulnerability Scorecard**, built using **Microsoft Power BI**, **DAX**, and a custom **weighted scoring model** for evaluating real-time threat exposure.
-
-This dashboard helps teams:
-• Detect high-risk security events
-• Assess vulnerabilities using 11 Key Threat Indicators
-• Analyze attack patterns and behavioral anomalies
-• Track system resource indicators tied to cyber activity
-• Interpret risk quickly through an intuitive color-mapped severity model
-
-🔗 **Live Dashboard**
-[https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html](https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html)
-
-🔧 **Features include:**
-✓ Threat severity scoring
-✓ Vulnerability classification
-✓ Incident timelines
-✓ Login/file access anomaly detection
-✓ Resource usage monitoring
-✓ Executive-ready scorecard visuals
-
-This project showcases how analytics, automation, and intelligent scoring systems can enhance cybersecurity operations.
-
-If you'd like to collaborate, discuss methodology, or explore the scoring engine — feel free to reach out!
-
-#CyberSecurity #PowerBI #DataAnalytics #ThreatDetection #RiskManagement #DashboardDesign #BusinessIntelligence #AIInsights
 
 ---
 
