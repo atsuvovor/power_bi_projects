@@ -294,4 +294,229 @@ If unsure, MIT is the easiest.
 
 If this project was helpful, please give the repository a ⭐ on GitHub!
 
+---
+Excellent — below are **all supporting documents**, professionally written and ready for copy/paste into GitHub, LinkedIn, your portfolio, or presentations.
+
+You now receive:
+
+1. **GitHub Project Description (Short “About” Section)**
+2. **LinkedIn Announcement Post**
+3. **Portfolio Case Study Page** (long-form storytelling for your website or GitHub Pages)
+4. **Optional Tags & SEO Keywords** (for visibility)
+
+---
+
+# ✅ **1. GitHub Project Description (Short About Section)**
+
+> **Cyber Attack Insight Dashboard & Vulnerability Scorecard**
+> A Power BI executive dashboard that analyzes cyber threats, vulnerability exposure, and system anomalies using a weighted scoring model and data-driven severity color mapping. The dashboard provides real-time insights into risk levels, attack patterns, operational impact, and key threat indicators (KTIs).
+> Live Dashboard: [https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html](https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html)
+
+---
+
+# ✅ **2. LinkedIn Announcement Post**
+
+### 🔐 New Cybersecurity Project: Cyber Attack Insight Dashboard (Power BI)
+
+Excited to share my **Cyber Attack Insight Dashboard & Vulnerability Scorecard**, built using **Microsoft Power BI**, **DAX**, and a custom **weighted scoring model** for evaluating real-time threat exposure.
+
+This dashboard helps teams:
+• Detect high-risk security events
+• Assess vulnerabilities using 11 Key Threat Indicators
+• Analyze attack patterns and behavioral anomalies
+• Track system resource indicators tied to cyber activity
+• Interpret risk quickly through an intuitive color-mapped severity model
+
+🔗 **Live Dashboard**
+[https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html](https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html)
+
+🔧 **Features include:**
+✓ Threat severity scoring
+✓ Vulnerability classification
+✓ Incident timelines
+✓ Login/file access anomaly detection
+✓ Resource usage monitoring
+✓ Executive-ready scorecard visuals
+
+This project showcases how analytics, automation, and intelligent scoring systems can enhance cybersecurity operations.
+
+If you'd like to collaborate, discuss methodology, or explore the scoring engine — feel free to reach out!
+
+#CyberSecurity #PowerBI #DataAnalytics #ThreatDetection #RiskManagement #DashboardDesign #BusinessIntelligence #AIInsights
+
+---
+
+# ✅ **3. Full Portfolio Case Study Page**
+
+*(Use this as a GitHub Pages page, portfolio writeup, or PDF attachment)*
+
+---
+
+# **Cyber Attack Insight Dashboard & Vulnerability Scorecard**
+
+**A Data-Driven Approach to Threat Detection, Severity Modeling & Operational Risk Intelligence**
+
+---
+
+## 📌 Project Overview
+
+Cyberattacks continue to evolve in complexity, making it critical for organizations to monitor risk exposure, threat behavior, and system anomalies in real time. This project delivers a **Power BI executive dashboard** that transforms raw cybersecurity event data into **actionable intelligence**, powered by:
+
+* A custom **weighted scoring model**
+* Rich visual analytics
+* Automated severity-based **color mapping**
+* Dynamic slicing and drilldown capabilities
+* Insightful threat correlations
+
+The dashboard provides analysts, SOC teams, and leadership with a proactive early-warning system that highlights where risks are emerging and which areas require immediate intervention.
+
+🔗 **View Live Dashboard**
+[https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html](https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html)
+
+---
+
+## 🎯 Business Problem
+
+Organizations often struggle with:
+
+* Fragmented visibility across different security datasets
+* Inconsistent severity scoring across tools
+* Limited ability to detect patterns in activity logs
+* Slow response times due to unclear risk priority
+
+The goal was to build a **single pane of glass** that answers:
+
+> *“What threats matter most right now, and why?”*
+
+---
+
+## 🧠 Solution Overview
+
+This dashboard integrates **11 Key Threat Indicators**, normalizes them through a scoring engine, and applies a color-coded severity model to make high-risk conditions immediately visible.
+
+### ✓ Key Deliverables
+
+* **Vulnerability Scorecard**
+* **Threat Severity Matrix**
+* **Incident Timeline**
+* **Attack Category Breakdown**
+* **Login/File Access Anomaly Tracking**
+* **CPU/Memory Usage Monitoring**
+
+---
+
+## 🧩 Scoring Engine (KTI Model)
+
+The dashboard uses a **weighted scoring approach** to standardize different types of cybersecurity signals. Each KTI receives a numeric score ranging from 1–10 depending on its risk intensity.
+
+These include:
+
+* Severity
+* Impact score
+* Risk Level
+* Response Time
+* Unauthorized Access
+* File Activity
+* Login Attempts
+* Network Data Transfer
+* CPU/Memory anomalies
+
+This scoring model ensures all threats are compared **on equal footing**.
+
+---
+
+## 🎨 Color Mapping Logic
+
+**Risk visualization is powered by a Threat Level × Severity matrix**, producing a consistent and intuitive color system.
+
+✔ Red tones → critical and high-risk
+✔ Yellow tones → medium or elevated caution
+✔ Green tones → low risk or normal conditions
+
+Full mapping table (with color emoji bullets) is included in the README.
+
+---
+
+## 🕹️ Dashboard Experience
+
+### Users can explore:
+
+* **High-risk events** (via filters and scorecards)
+* **Time of occurrence** (hour, day, trendline)
+* **Attack categories**
+* **Affected systems or activities**
+
+### Interactions include:
+
+* Cross-filtering
+* Drilldowns
+* Tooltip insights
+* Custom slicers
+
+The HTML export enables stakeholders to access the dashboard via the web without needing Power BI Desktop.
+
+---
+
+## 🧱 Architecture & Tools
+
+| Layer         | Technology                           |
+| ------------- | ------------------------------------ |
+| Data Modeling | Power Query, DAX                     |
+| Visualization | Power BI Desktop                     |
+| Scoring Logic | Python-based model                   |
+| Deployment    | GitHub Pages (HTML export)           |
+| Documentation | GitHub README + Portfolio Case Study |
+
+---
+
+## 📈 What This Demonstrates
+
+This project highlights capabilities in:
+
+* Cybersecurity analytics
+* Executive dashboard design
+* Data modeling and normalization
+* Severity and scoring logic engineering
+* KPI frameworks
+* UI/UX for risk visibility
+* GitHub hosting for BI assets
+
+---
+
+## 📞 Contact
+
+**Atsu Vovor**
+Data & Analytics Consultant
+📧 [atsu.vovor@bell.net](mailto:atsu.vovor@bell.net)
+🔗 LinkedIn: [https://www.linkedin.com/in/atsu-vovor-mmai-9188326/](https://www.linkedin.com/in/atsu-vovor-mmai-9188326/)
+📊 Portfolio: [https://public.tableau.com/app/profile/atsu.vovor8645](https://public.tableau.com/app/profile/atsu.vovor8645)
+
+---
+
+# ✅ **4. SEO Tags & Keywords (Optional but Recommended)**
+
+Add these to your GitHub repo **Topics**:
+
+* `cyber-security`
+* `power-bi-dashboard`
+* `risk-management`
+* `threat-detection`
+* `data-analytics`
+* `vulnerability-scorecard`
+* `business-intelligence`
+* `data-visualization`
+* `cybersecurity-analytics`
+* `executive-dashboard`
+
+---
+
+If you want, I can also generate:
+
+📘 **PDF version** of the case study
+🌐 **A full GitHub Pages site**
+🎨 **Thumbnail images / covers for LinkedIn & GitHub**
+📊 **PBIX download link template**
+
+Just tell me: **“Generate the PDF”**, **“Generate GitHub Pages site”**, etc.
+
 
