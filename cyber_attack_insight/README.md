@@ -1,4 +1,4 @@
-# **Cyber Attack Insight Dashboard & Vulnerability Scorecard - Case Study**
+# **Cyber Attack Insight Dashboard & Vulnerability Scorecard**
 
 *BI Executive Dashboard for Threat Detection, Severity Scoring & Incident Response Intelligence*
 
