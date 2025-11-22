@@ -1,4 +1,9 @@
-# **Cyber Attack Insight Dashboard & Vulnerability Scorecard**
+<h1 align="center">Cyber Attack Insight Dashboard & Vulnerability Scorecard</h1>
+  
+
+<p align="center">
+  <img src="UDI_AIIF_logo3.png" alt="Centered Image">
+</p>
 
 *BI Executive Dashboard for Threat Detection, Severity Scoring & Incident Response Intelligence*
 
@@ -321,17 +326,22 @@ MIT
 
 ---
 # 🙌 **Credits**
----
 
 ## ⭐ **Support the Project**
 
 If this project was helpful, please give the repository a ⭐ on GitHub!
 
 ---
-Created by **Atsu Vovor**
-📧 [atsu.vovor@bell.net](mailto:atsu.vovor@bell.net)
-🔗 LinkedIn: [https://www.linkedin.com/in/atsu-vovor-mmai-9188326/](https://www.linkedin.com/in/atsu-vovor-mmai-9188326/)
-📊 Tableau Portfolio: [https://public.tableau.com/app/profile/atsu.vovor8645](https://public.tableau.com/app/profile/atsu.vovor8645)
+##  🤝 Connect With Me
+I am always open to collaboration and discussion about new projects or technical roles.
+
+Atsu Vovor  
+Consultant, Data & Analytics   
+Ph: 416-795-8246 | ✉️ atsu.vovor@bell.net  
+🔗 [LinkedIn ](https://www.linkedin.com/in/atsu-vovor-mmai-9188326/)|   [GitHub](https://atsuvovor.github.io/projects_portfolio.github.io/) |   [Tableau Portfolio](https://public.tableau.com/app/profile/atsu.vovor8645/vizzes)  
+📍 Mississauga ON   
+
+### Thank you for visiting!🙏
 
 
 
