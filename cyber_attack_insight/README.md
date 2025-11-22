@@ -487,36 +487,10 @@ This project highlights capabilities in:
 
 **Atsu Vovor**
 Data & Analytics Consultant
-📧 [atsu.vovor@bell.net](mailto:atsu.vovor@bell.net)
-🔗 LinkedIn: [https://www.linkedin.com/in/atsu-vovor-mmai-9188326/](https://www.linkedin.com/in/atsu-vovor-mmai-9188326/)
-📊 Portfolio: [https://public.tableau.com/app/profile/atsu.vovor8645](https://public.tableau.com/app/profile/atsu.vovor8645)
+📧 [atsu.vovor@bell.net](mailto:atsu.vovor@bell.net)  
+🔗 LinkedIn: [](https://www.linkedin.com/in/atsu-vovor-mmai-9188326/)
+📊 Portfolio: [](https://public.tableau.com/app/profile/atsu.vovor8645)
 
----
 
-# ✅ **4. SEO Tags & Keywords (Optional but Recommended)**
-
-Add these to your GitHub repo **Topics**:
-
-* `cyber-security`
-* `power-bi-dashboard`
-* `risk-management`
-* `threat-detection`
-* `data-analytics`
-* `vulnerability-scorecard`
-* `business-intelligence`
-* `data-visualization`
-* `cybersecurity-analytics`
-* `executive-dashboard`
-
----
-
-If you want, I can also generate:
-
-📘 **PDF version** of the case study
-🌐 **A full GitHub Pages site**
-🎨 **Thumbnail images / covers for LinkedIn & GitHub**
-📊 **PBIX download link template**
-
-Just tell me: **“Generate the PDF”**, **“Generate GitHub Pages site”**, etc.
 
 
