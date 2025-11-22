@@ -28,12 +28,12 @@ This dashboard serves as a **proactive decision-support system** that highlights
 ## 🖼️ **Dashboard Preview (Screenshots)**
 
 
-```
+
 ![Vulnerability Scorecard Overview](images/screenshot_threat_overview.png)
 ![Severity Distribution](images/Screenshot_vulnerability_profile.png)
 ![Asset Exposure](images/screenshot_threat_impact.png)
 ![Remediation Performance](images/Screenshot_vulnerability_and_defense_actions.png)
-```
+
 
 ---
 
