@@ -3,8 +3,8 @@
   <i>BI Executive Dashboard for Threat Detection, Severity Scoring & Incident Response Intelligence</i>
 </p>
 <p align="center">
-  <img src="images/vulnerability_scorecard_3D.png" alt="Vulnerability Scorecard">
-</p>
+  <img src="images/vulnerability_scorecard_3D.png" alt="Vulnerability Scorecard" width="400" height="300">
+</p
 
 
 🔗 **Live Dashboard:**
