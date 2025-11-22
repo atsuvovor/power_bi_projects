@@ -1,13 +1,3 @@
-# PowerBI projects
-This repository is designed to keep my Power BI dashboards 
-https://atsuvovor.github.io/power_bi_projects/cyber_attack_insight_dashboard.html
-
-Below is a **complete, professional, ready-to-publish `README.md`** specifically for the **Vulnerability Scorecard** section of your Cyber Attack Insight Dashboard.
-
-It is structured for GitHub, includes badges, architecture, formulas, screenshots (placeholders), and all documentation sections typically expected in a high-quality data/BI portfolio repository.
-
----
-
 # 🔐 **Vulnerability Scorecard — Power BI Dashboard**
 
 A comprehensive **Vulnerability Management & Exposure Analytics Scorecard** built in **Power BI** to help cybersecurity teams monitor risk posture, vulnerability severity, remediation performance, and asset exposure across the organization.
