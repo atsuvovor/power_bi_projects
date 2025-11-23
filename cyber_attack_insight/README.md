@@ -343,9 +343,3 @@ Ph: 416-795-8246 | ✉️ atsu.vovor@bell.net
 📍 Mississauga ON   
 
 ### Thank you for visiting!🙏
-
-
-
-
-
-
