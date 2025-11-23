@@ -168,37 +168,41 @@ function toggleSidebar() {
     sidebar.classList.toggle("collapsed");
 }
 
-
 async function loadDocumentation() {
     const url = "https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/docs/cyber_attack_insight/README.md";
-
     let mdText = await (await fetch(url)).text();
 
+    // Base URL for relative image paths
     const base = "https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/docs/cyber_attack_insight/";
 
-    // 1️⃣ Fix Markdown images: ![Alt](images/...)
-    mdText = mdText.replace(/!\[(.*?)\]\((.*?)\)/g, (match, alt, path) => {
-        if (path.startsWith("http")) return match; // already absolute
-        return `![${alt}](${base}${path.replace(/^\.\//, "")})`;
-    });
+    // Convert Markdown image syntax ![alt](images/...) → absolute URLs
+    mdText = mdText.replace(/!\[(.*?)\]\((images\/.*?)\)/g, (match, alt, relPath) =>
+        `![${alt}](${base}${relPath.replace(/^\.\//, "")})`
+    );
 
-    // 2️⃣ Fix HTML <img src="..."> tags
+    // Convert <img> tags in HTML (like <p><img ...></p>) to absolute URLs + responsive
     mdText = mdText.replace(/<img\s+([^>]*?)src=["']([^"']+)["']([^>]*)>/gi, (match, pre, path, post) => {
         if (path.startsWith("http")) return match; // already absolute
         const newPath = base + path.replace(/^\.\//, "");
+        // Remove fixed width/height attributes
+        post = post.replace(/width=["']\d+["']/gi, '');
+        post = post.replace(/height=["']\d+["']/gi, '');
+        // Add responsive styling if no style exists
+        if (!/style=/i.test(post)) post += ' style="max-width:100%; height:auto;"';
         return `<img ${pre}src="${newPath}"${post}>`;
     });
 
-    // Convert Markdown → HTML
+    // Convert Markdown to HTML
     const html = marked.parse(mdText);
 
-    // Render in your card
+    // Display in the card
     document.getElementById("display-card").innerHTML = `
         <div style="padding: 20px; max-width: 900px; margin: auto;">
             ${html}
         </div>
     `;
 }
+
 
 
 
