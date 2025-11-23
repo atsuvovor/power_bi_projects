@@ -221,22 +221,17 @@ def assign_color(threat, severity):
 ## 🗂️ Folder Structure (Recommended)
 
 ```
-vulnerability_scorecard/
-│
-├── README.md
-├── Vulnerability_Scorecard.pbix
-├── images/
-│   ├── vulnerability_scorecard_overview.png
-│   ├── vulnerability_severity_distribution.png
-│   ├── asset_exposure.png
-│   └── remediation_performance.png
-├── data/
-│   ├── sample_vulnerability_data.csv
-│   └── data_dictionary.md
+power_bi_projects/
 └── docs/
-    ├── model_schema.pdf
-    ├── dax_reference.md
-    └── methodology.md
+    ├── index.htm
+    └── cyber_attack_insight/
+         ├── index.md          ← REQUIRED
+         ├── README.md
+         ├── cyber_attack_insight_dashboard.pbix
+         └── images/
+             ├── Screenshot attack_overwiew.png
+             └── ... (other screenshots)
+
 ```
 ## 🕹️ Dashboard Experience
 
@@ -319,11 +314,6 @@ This project highlights capabilities in:
 
 This dashboard represents **synthetic** or **anonymized** data for demonstration purposes.
 It does not expose real organizational threat data.
-
----
-## 📄 **License**
-
-MIT
 
 ---
 # 🙌 **Credits**
