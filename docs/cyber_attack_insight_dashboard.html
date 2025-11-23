@@ -162,10 +162,6 @@ function downloadPBIX() {
     window.location.href = "https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/cyber_attack_insight/cyber_attack_insight_dashboard.pbix";
 }
 
-function openDocs() {
-    window.open("https://github.com/atsuvovor/power_bi_projects/blob/main/cyber_attack_insight/README.md", "_blank");
-}
-
 
 function toggleSidebar() {
     const sidebar = document.getElementById("sidebar");
@@ -174,7 +170,7 @@ function toggleSidebar() {
 
 
 async function loadDocumentation() {
-    const url = "https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/cyber_attack_insight/README.md";
+    const url = "https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/docs/README.md";
 
     const response = await fetch(url);
     const mdText = await response.text();
