@@ -187,8 +187,12 @@ async function loadDocumentation() {
         // Remove fixed width/height attributes
         post = post.replace(/width=["']\d+["']/gi, '');
         post = post.replace(/height=["']\d+["']/gi, '');
-        // Add responsive styling if no style exists
-        if (!/style=/i.test(post)) post += ' style="max-width:100%; height:auto;"';
+
+        if (path.includes("vulnerability_scorecard_3D.png")) {
+            post += ' style="max-width:100%; height:300px; object-fit:contain;"';
+        } else if (!/style=/i.test(post)) {
+            post += ' style="max-width:100%; height:auto;"';
+        }
         return `<img ${pre}src="${newPath}"${post}>`;
     });
 
