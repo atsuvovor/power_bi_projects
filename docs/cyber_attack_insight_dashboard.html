@@ -128,6 +128,7 @@
     <h1>Cyber Vulnerability Scorecard</h1>
 
     <div class="top-right">
+        <button class="btn" onclick="openDocs()">Documentation</button>
         <button class="btn" onclick="downloadPBIX()">Download PBIX</button>
     </div>
 </div>
@@ -159,6 +160,11 @@ function loadImage(filename) {
 function downloadPBIX() {
     window.location.href = "https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/cyber_attack_insight/cyber_attack_insight_dashboard.pbix";
 }
+
+function openDocs() {
+    window.open("https://github.com/atsuvovor/power_bi_projects/blob/main/cyber_attack_insight/README.md", "_blank");
+}
+
 
 function toggleSidebar() {
     const sidebar = document.getElementById("sidebar");
