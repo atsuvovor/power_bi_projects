@@ -172,18 +172,18 @@ function toggleSidebar() {
 async function loadDocumentation() {
     const url = "https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/docs/cyber_attack_insight/README.md";
 
-    const response = await fetch(url);
-    const mdText = await response.text();
+    let mdText = await (await fetch(url)).text();
 
-    // Convert Markdown to HTML using a small converter (marked.js CDN)
-    const html = window.marked.parse(mdText);
+    // Convert relative image paths → absolute GitHub RAW URLs
+    mdText = mdText.replace(/!\[(.*?)\]\((images\/.*?)\)/g,
+        (match, alt, relPath) =>
+            `![${alt}](https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/docs/cyber_attack_insight/${relPath})`
+    );
 
-    document.getElementById("display-card").innerHTML = `
-        <div style="padding: 20px; max-width: 900px; margin: auto;">
-            ${html}
-        </div>
-    `;
+    const html = marked.parse(mdText);
+    document.getElementById("display-card").innerHTML = html;
 }
+
 
 </script>
 
