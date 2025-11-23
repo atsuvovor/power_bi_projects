@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Cyber Vulnerability Scorecard</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <style>
     body {
         margin: 0;
@@ -128,7 +129,7 @@
     <h1>Cyber Vulnerability Scorecard</h1>
 
     <div class="top-right">
-        <button class="btn" onclick="openDocs()">Documentation</button>
+        <button class="btn" onclick="loadDocumentation()">Documentation</button>
         <button class="btn" onclick="downloadPBIX()">Download PBIX</button>
     </div>
 </div>
@@ -170,6 +171,24 @@ function toggleSidebar() {
     const sidebar = document.getElementById("sidebar");
     sidebar.classList.toggle("collapsed");
 }
+
+
+async function loadDocumentation() {
+    const url = "https://raw.githubusercontent.com/atsuvovor/power_bi_projects/main/cyber_attack_insight/README.md";
+
+    const response = await fetch(url);
+    const mdText = await response.text();
+
+    // Convert Markdown to HTML using a small converter (marked.js CDN)
+    const html = window.marked.parse(mdText);
+
+    document.getElementById("display-card").innerHTML = `
+        <div style="padding: 20px; max-width: 900px; margin: auto;">
+            ${html}
+        </div>
+    `;
+}
+
 </script>
 
   </body>
