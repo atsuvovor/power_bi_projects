@@ -216,7 +216,6 @@ def assign_color(threat, severity):
 ---
 
 # 🚀 **How to Use the Dashboard**
----
 
 ## 🗂️ Folder Structure (Recommended)
 
