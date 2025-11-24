@@ -238,7 +238,7 @@ power_bi_projects/
   │	         │   ├── screenshot_threat_overview.png
   │          │   └── ... (other screenshots)
              ├── data/  
-                   ├── simulated_attacks_df.csv │  
+                   ├── simulated_attacks_df.csv  
                    └── color_df.csv
 
 ```
