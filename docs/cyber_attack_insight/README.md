@@ -222,15 +222,24 @@ def assign_color(threat, severity):
 
 ```
 power_bi_projects/
-└── docs/
-    ├── index.htm
-    └── cyber_attack_insight/
-         ├── index.md          ← REQUIRED
-         ├── README.md
-         ├── cyber_attack_insight_dashboard.pbix
-         └── images/
-             ├── Screenshot attack_overwiew.png
-             └── ... (other screenshots)
+  ├── README.md
+  ├── LICENSE
+  ├── .gitgnore
+  └── docs/
+  |    ├── index.htm
+  |    ├──cyber_attack_insight_dashboard.html
+  |    └── cyber_attack_insight/
+  |          ├── README.md
+  |          ├── cyber_attack_insight_dashboard.pbix
+  |          ├── images/ 
+  │          │   ├── vulnerability_scorecard_3D.png 
+  │          │   ├── Screenshot_vulnerability_and_defense_actions.png 
+  │          │   ├── vulnerability_scorecard_3D.png
+  │	         │   ├── screenshot_threat_overview.png
+  │          │   └── ... (other screenshots)
+             ├── data/  
+                   ├── simulated_attacks_df.csv │  
+                   └── color_df.csv
 
 ```
 ## 🕹️ Dashboard Experience
