@@ -212,6 +212,10 @@ def assign_color(threat, severity):
             return "Green-Yellow"
         else:
             return "Green"
+# Assign colors
+df["Color"] = df.apply(lambda row: assign_color(row["Threat Level"], row["Severity"]), axis=1)
+return df
+
 ```
 ---
 
