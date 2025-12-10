@@ -217,8 +217,11 @@ df["Color"] = df.apply(lambda row: assign_color(row["Threat Level"], row["Severi
 return df
 
 ```
----
 
+**Data Source**  
+[Cybersecurity-Data-Generator](https://github.com/atsuvovor/Cybersecurity-Data-Generator/blob/main/README.md) 
+
+---
 # 🚀 **How to Use the Dashboard**
 
 ## 🗂️ Folder Structure (Recommended)
