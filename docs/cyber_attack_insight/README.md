@@ -224,7 +224,7 @@ return df
 ---
 # 🚀 **How to Use the Dashboard**
 
-## 🗂️ Folder Structure (Recommended)
+## 🗂️ Folder Structure
 
 ```
 power_bi_projects/
